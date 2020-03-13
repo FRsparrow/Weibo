@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeiBo</string>
+    <string name="title">最新发布</string>
+    <string name="add_blog_title">取消</string>
+    <string name="comment_title">评论</string>
+    <string name="hint">分享新鲜事...</string>
+    <string name="title_home">所有微博</string>
+    <string name="title_dashboard">我的微博</string>
+    <string name="title_notifications">我的</string>
+    <string name="rememberPassword">记住密码</string>
+    <string name="login">登录</string>
+    <string name="password">密码：</string>
+    <string name="userName">用户名：</string>
+    <string name="register">注册</string>
+    <string name="toregister">注册</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp">
+
+        <ImageView
+            android:id="@+id/comment_head_image"
+            android:layout_width="57sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/comment_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="3"
+                android:textSize="21sp"
+                android:textColor="@color/colorUserName"
+                android:text="userName"/>
+
+
+            <TextView
+                android:id="@+id/comment_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/cardview_dark_background"
+                android:text="评论内容"/>
+
+            <TextView
+                android:id="@+id/comment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="2"
+                android:textSize="14sp"
+                android:textColor="@color/cardview_dark_background"
+                android:text="Time"/>
+
+        </LinearLayout>
+
+</LinearLayout>

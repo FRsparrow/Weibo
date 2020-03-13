@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- Actionbar color -->
+        <item name="colorPrimary">@color/accent_material_dark</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textColorPrimary">@color/cardview_dark_background</item>
+        <!--Status bar color-->
+        <item name="colorPrimaryDark">@color/accent_material_light</item>
+        <!--Window color-->
+        <item name="android:windowBackground">@color/bgc</item>
+    </style>
+</resources>

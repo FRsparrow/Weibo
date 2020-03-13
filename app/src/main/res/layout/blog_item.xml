@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/blog_head_image"
+            android:layout_width="57sp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/blog_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="3"
+                android:textSize="21sp"
+                android:textColor="@color/colorUserName"
+                android:text="userName"/>
+
+            <TextView
+                android:id="@+id/blog_time"
+                android:layout_width="wrap_content"
+                android:layout_height="0sp"
+                android:layout_weight="2"
+                android:textSize="14sp"
+                android:textColor="@color/cardview_dark_background"
+                android:text="Time"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/blog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:textSize="18sp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="微博内容"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="none">
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/blog_like_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/like" />
+
+            <TextView
+                android:id="@+id/blog_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:text="12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/blog_comment_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/comment" />
+
+            <TextView
+                android:id="@+id/blog_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="18sp"
+                android:text="12" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10sp"
+        android:background="@color/divider"/>
+
+</LinearLayout>
